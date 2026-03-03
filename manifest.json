@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Darttime - Profesyonel Dart Oyunu",
+    "version": "1.0",
+    "description": "Profesyonel çok oyunculu dart oyunu",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Darttime Oyna"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'; connect-src 'self'"
+    }
+}
